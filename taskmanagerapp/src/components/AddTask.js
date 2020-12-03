@@ -78,14 +78,14 @@ export const AddTask = ({
       )}
 
       {(showMain || showQuickAddTask) && (
-        <div className="add-task__main" data-testid="add-task-main">
+        <div className="add-task__main" >
           {showQuickAddTask && (
             <>
-              <div data-testid="quick-add-task">
+              <div >
                 <h2 className="header">Quick Add Task</h2>
                 <span
                   className="add-task__cancel-x"
-                  data-testid="add-task-quick-cancel"
+                  
                   aria-label="Cancel adding task"
                   onClick={() => {
                     setShowMain(false);
@@ -122,7 +122,6 @@ export const AddTask = ({
           <input
             className="add-task__content"
             aria-label="Enter your task"
-            data-testid="add-task-content"
             type="text"
             value={task}
             onChange={(e) => setTask(e.target.value)}
@@ -130,7 +129,6 @@ export const AddTask = ({
           <button
             type="button"
             className="add-task__submit"
-            data-testid="add-task"
             onClick={() => (showQuickAddTask ?  addTask() &&  setShowQuickAddTask(false) :  addTask()) }
           >
             Add Task
@@ -138,7 +136,6 @@ export const AddTask = ({
           {!showQuickAddTask && (
             <span
               className="add-task__cancel"
-              data-testid="add-task-main-cancel"
               onClick={() => {
                 setShowMain(false);
                 setShowProjectOverlay(false);
@@ -149,7 +146,6 @@ export const AddTask = ({
           )}
           <span
             className="add-task__project"
-            data-testid="show-project-overlay"
             onClick={() => setShowProjectOverlay(!showProjectOverlay)}
             onKeyDown={(e) => {
               if (e.key === 'Enter') setShowProjectOverlay(!showProjectOverlay);
@@ -161,7 +157,6 @@ export const AddTask = ({
           </span>
           <span
             className="add-task__date"
-            data-testid="show-task-date-overlay"
             onClick={() => setShowTaskDate(!showTaskDate)}
             onKeyDown={(e) => {
               if (e.key === 'Enter') setShowTaskDate(!showTaskDate);

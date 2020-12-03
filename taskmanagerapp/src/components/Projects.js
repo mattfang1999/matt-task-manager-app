@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import { useSelectedProjectValue, useProjectsValue } from '../context';
 import { IndividualProject } from './IndividualProject';
 
@@ -14,7 +13,7 @@ export const Projects = ({ activeValue = null }) => {
     projects.map((project) => (
       <li
         key={project.projectId}
-        data-testid="project-action-parent"
+     
         data-doc-id={project.docId}
         className={
           active === project.projectId
@@ -24,7 +23,6 @@ export const Projects = ({ activeValue = null }) => {
       >
         <div
           role="button"
-          data-testid="project-action"
           tabIndex={0}
           aria-label={`Select ${project.name} as the task project`}
           onClick={() => {
