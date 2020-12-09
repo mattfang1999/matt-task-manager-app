@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mattfang1999/matt-task-manager-app.git/static/css/main.d29eb7c1.chunk.css",
+    "main.js": "/mattfang1999/matt-task-manager-app.git/static/js/main.c031fd40.chunk.js",
+    "main.js.map": "/mattfang1999/matt-task-manager-app.git/static/js/main.c031fd40.chunk.js.map",
+    "runtime-main.js": "/mattfang1999/matt-task-manager-app.git/static/js/runtime-main.05df311c.js",
+    "runtime-main.js.map": "/mattfang1999/matt-task-manager-app.git/static/js/runtime-main.05df311c.js.map",
+    "static/js/2.0c99b8aa.chunk.js": "/mattfang1999/matt-task-manager-app.git/static/js/2.0c99b8aa.chunk.js",
+    "static/js/2.0c99b8aa.chunk.js.map": "/mattfang1999/matt-task-manager-app.git/static/js/2.0c99b8aa.chunk.js.map",
+    "index.html": "/mattfang1999/matt-task-manager-app.git/index.html",
+    "static/css/main.d29eb7c1.chunk.css.map": "/mattfang1999/matt-task-manager-app.git/static/css/main.d29eb7c1.chunk.css.map",
+    "static/js/2.0c99b8aa.chunk.js.LICENSE.txt": "/mattfang1999/matt-task-manager-app.git/static/js/2.0c99b8aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05df311c.js",
+    "static/js/2.0c99b8aa.chunk.js",
+    "static/css/main.d29eb7c1.chunk.css",
+    "static/js/main.c031fd40.chunk.js"
+  ]
+}
