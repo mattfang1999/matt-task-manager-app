@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/matt-task-manager-app/static/css/main.6c383047.chunk.css",
-    "main.js": "/matt-task-manager-app/static/js/main.450db9f2.chunk.js",
-    "main.js.map": "/matt-task-manager-app/static/js/main.450db9f2.chunk.js.map",
+    "main.js": "/matt-task-manager-app/static/js/main.0014dc4a.chunk.js",
+    "main.js.map": "/matt-task-manager-app/static/js/main.0014dc4a.chunk.js.map",
     "runtime-main.js": "/matt-task-manager-app/static/js/runtime-main.fe1f0581.js",
     "runtime-main.js.map": "/matt-task-manager-app/static/js/runtime-main.fe1f0581.js.map",
-    "static/js/2.ff0fa7a7.chunk.js": "/matt-task-manager-app/static/js/2.ff0fa7a7.chunk.js",
-    "static/js/2.ff0fa7a7.chunk.js.map": "/matt-task-manager-app/static/js/2.ff0fa7a7.chunk.js.map",
+    "static/js/2.d8dae2fb.chunk.js": "/matt-task-manager-app/static/js/2.d8dae2fb.chunk.js",
+    "static/js/2.d8dae2fb.chunk.js.map": "/matt-task-manager-app/static/js/2.d8dae2fb.chunk.js.map",
     "index.html": "/matt-task-manager-app/index.html",
     "static/css/main.6c383047.chunk.css.map": "/matt-task-manager-app/static/css/main.6c383047.chunk.css.map",
-    "static/js/2.ff0fa7a7.chunk.js.LICENSE.txt": "/matt-task-manager-app/static/js/2.ff0fa7a7.chunk.js.LICENSE.txt"
+    "static/js/2.d8dae2fb.chunk.js.LICENSE.txt": "/matt-task-manager-app/static/js/2.d8dae2fb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fe1f0581.js",
-    "static/js/2.ff0fa7a7.chunk.js",
+    "static/js/2.d8dae2fb.chunk.js",
     "static/css/main.6c383047.chunk.css",
-    "static/js/main.450db9f2.chunk.js"
+    "static/js/main.0014dc4a.chunk.js"
   ]
 }
